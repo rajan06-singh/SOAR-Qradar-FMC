@@ -7,9 +7,9 @@ Pre-requisites:
 1. Username - This will be the administrator account on your FMC. 
 2. Password - This will be the password of associated admin account. 
 3. Source IP Address - On Qradar, it provides the option to extract source ip address when the monitoring rule triggers 
-4. api_path - This need to be changed. The path includes id as the last resource of api path.  
+4. api_path - This need to be changed in the script. Refer FMC API_Explorer to get the api_path. The ID of the object is unique and depending on which object you want to modify, appropriate GET request should be issued. 
 
-Note: These pre-requisites will be used as arguments to python file. Note, the order of these pre-requisites matters. You need to be careful while providing the argument in same order which is username, password and then sourceip
+Note: These pre-requisites will be used as arguments to python file. Note, the order of these pre-requisites matters. You need to be careful while providing the argument in same order which is username, password and then sourceip (Or whatever event field) 
 
 Working Principle:
 
