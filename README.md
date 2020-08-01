@@ -1,7 +1,9 @@
 # SOAR-Qradar-FMC
 Security Automated Response (Qradar - FMC)
 
-#This is an automated approach to take action such as blocking a source IP address on FMC when your defined rule on Qradar system triggers the event. 
+#This is an automated approach to take action on Qradar as part of response - blocking a source IP address on FMC when your defined rule on Qradar system triggers the event. For instance, if there is an active brute force attempt on one of your system. Build a rule on Qradar to detect such event. Make sure you capture the source IP under this detection rule. 
+
+Once the detection rule is enable, you need to add custom action on Qradar as part of response to this rule. The configuration steps for custom action is out of scope here. Please follow Qradar documentation for this step. Under custom action, upload this file and follow below mentioned working principle. 
 
 Pre-requisites: 
 1. Username - This will be the administrator account on your FMC. 
