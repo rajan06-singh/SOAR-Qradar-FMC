@@ -4,7 +4,8 @@ import json
 import sys
 import requests
 
-server = "https://10.36.1.52"
+#Put your FMC server IP address here
+server = "https://x.x.x.x"
 
 username = "admin"
 if len(sys.argv) > 1:
